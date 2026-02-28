@@ -24,6 +24,7 @@ export interface PracticeArea {
 export const practiceAreas: PracticeArea[] = [
   {
     slug: "direito-civil",
+
     title: "Direito Cível",
     shortDescription:
       "Fez um contrato ruim ou está sendo cobrado errado? Sofreu prejuízo por danos? Saiba como ter respaldo legal.",
@@ -68,53 +69,6 @@ export const practiceAreas: PracticeArea[] = [
     ],
     closingMethodologyText:
       "No Direito Cível, nossa metodologia se baseia na análise cuidadosa dos fatos, na aplicação rigorosa da legislação e na busca por soluções que equilibrem seus interesses com a viabilidade jurídica. Trabalhamos para que você tenha segurança em suas relações civis e patrimoniais.",
-  },
-  {
-    slug: "direito-trabalhista",
-    title: "Direito Trabalhista",
-    shortDescription:
-      "Foi demitido e não recebeu tudo? Trabalha sem registro ou com abusos de jornada? Assegure o cumprimento da lei e garanta o que é seu por direito.",
-    icon: Briefcase,
-    introText:
-      "O Direito Trabalhista protege os direitos dos trabalhadores e regula as relações de trabalho. Atuamos tanto na defesa de direitos quanto na orientação preventiva para evitar conflitos.",
-    responsibleLawyers: [
-      {
-        name: "Matheus Lucena",
-        oab: "OAB/CE 44.968",
-        image: "/matheus lucena.png",
-        instagram: "https://www.instagram.com/matheuslucenaadv/",
-      },
-    ],
-    contentBlocks: [
-      {
-        heading: "Nossos Serviços",
-        paragraphs: [
-          "Reclamações trabalhistas para assegurar o recebimento de verbas rescisórias.",
-          "Ações de reconhecimento de vínculo empregatício.",
-          "Defesa contra assédio moral e discriminação no trabalho.",
-          "Assessoria em questões de jornada, horas extras e adicionais.",
-        ],
-      },
-      {
-        heading: "Nossa Abordagem",
-        paragraphs: [
-          "Avaliamos criteriosamente todos os aspectos da relação de trabalho.",
-          "Orientamos sobre direitos e deveres para evitar surpresas.",
-          "Atuamos de forma estratégica para maximizar seus direitos.",
-        ],
-      },
-      {
-        heading: "Como Trabalhamos",
-        paragraphs: [
-          "Análise completa da documentação trabalhista.",
-          "Identificação de irregularidades e cálculo de valores devidos.",
-          "Negociação ou ajuizamento de ação conforme o caso.",
-          "Acompanhamento até o recebimento efetivo dos valores.",
-        ],
-      },
-    ],
-    closingMethodologyText:
-      "Nossa metodologia trabalhista foca na proteção integral dos seus direitos como trabalhador. Utilizamos conhecimento atualizado da legislação e jurisprudência para construir casos sólidos e obter os melhores resultados possíveis.",
   },
   {
     slug: "direito-do-consumidor",
@@ -317,3 +271,50 @@ export const practiceAreas: PracticeArea[] = [
       "Nossa metodologia previdenciária é baseada em análise técnica aprofundada do seu histórico contributivo. Trabalhamos para garantir que você receba o benefício adequado no menor tempo possível, seja por via administrativa ou judicial.",
   },
 ];
+  {
+    slug: "direito-trabalhista",
+    title: "Direito Trabalhista",
+    shortDescription:
+      "Foi demitido e não recebeu tudo? Trabalha sem registro ou com abusos de jornada? Assegure o cumprimento da lei e garanta o que é seu por direito.",
+    icon: Briefcase,
+    introText:
+      "O Direito Trabalhista protege os direitos dos trabalhadores e regula as relações de trabalho. Atuamos tanto na defesa de direitos quanto na orientação preventiva para evitar conflitos.",
+    responsibleLawyers: [
+      {
+        name: "Matheus Lucena",
+        oab: "OAB/CE 44.968",
+        image: "/matheus lucena.png",
+        instagram: "https://www.instagram.com/matheuslucenaadv/",
+      },
+    ],
+    contentBlocks: [
+      {
+        heading: "Nossos Serviços",
+        paragraphs: [
+          "Reclamações trabalhistas para assegurar o recebimento de verbas rescisórias.",
+          "Ações de reconhecimento de vínculo empregatício.",
+          "Defesa contra assédio moral e discriminação no trabalho.",
+          "Assessoria em questões de jornada, horas extras e adicionais.",
+        ],
+      },
+      {
+        heading: "Nossa Abordagem",
+        paragraphs: [
+          "Avaliamos criteriosamente todos os aspectos da relação de trabalho.",
+          "Orientamos sobre direitos e deveres para evitar surpresas.",
+          "Atuamos de forma estratégica para maximizar seus direitos.",
+        ],
+      },
+      {
+        heading: "Como Trabalhamos",
+        paragraphs: [
+          "Análise completa da documentação trabalhista.",
+          "Identificação de irregularidades e cálculo de valores devidos.",
+          "Negociação ou ajuizamento de ação conforme o caso.",
+          "Acompanhamento até o recebimento efetivo dos valores.",
+        ],
+      },
+    ],
+    closingMethodologyText:
+      "Nossa metodologia trabalhista foca na proteção integral dos seus direitos como trabalhador. Utilizamos conhecimento atualizado da legislação e jurisprudência para construir casos sólidos e obter os melhores resultados possíveis.",
+  },

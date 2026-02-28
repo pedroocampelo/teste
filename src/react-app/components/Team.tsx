@@ -5,18 +5,18 @@ import { Instagram, X, ChevronRight } from "lucide-react";
 
 const team = [
   {
-    name: "Bruno Romero",
-    oab: "OAB/CE 44.829",
-    image: "/bruno romero.png",
-    instagram: "https://www.instagram.com/bruno_rcl/",
-    bio: "Advogado especializado em Direito Cível e Trabalhista, com ampla experiência em defesa de direitos e resolução de conflitos. Comprometido com soluções jurídicas eficazes e orientação transparente.",
+    name: "Matheus Lucena",
+    oab: "OAB/CE 44.968",
+    image: "/matheus lucena.png",
+    instagram: "https://www.instagram.com/matheuslucenaadv/",
+    bio: "Advogado especializado em Direito Imobiliário e Previdenciário, oferecendo assessoria completa em transações imobiliárias e benefícios previdenciários. Reconhecido pela atenção aos detalhes e compromisso com resultados.",
     qualifications: [
       "Graduado em Direito",
-      "Especialização em Direito Civil",
-      "Atuação em Direito Trabalhista",
+      "Especialização em Direito Imobiliário",
+      "Atuação em Direito Previdenciário",
       "Membro da OAB/CE desde 2020",
     ],
-    areas: ["Direito Cível", "Direito Trabalhista"],
+    areas: ["Direito Empresarial", "Direito Previdenciário", "Direito Trabalhista"],
   },
   {
     name: "Lorenzo Marcello",
@@ -30,21 +30,21 @@ const team = [
       "Atuação em Direito Empresarial",
       "Membro da OAB/CE desde 2021",
     ],
-    areas: ["Direito do Consumidor", "Direito Empresarial"],
+    areas: ["Direito do Consumidor", "Direito Imobiliário"],
   },
-  {
-    name: "Matheus Lucena",
-    oab: "OAB/CE 44.968",
-    image: "/matheus lucena.png",
-    instagram: "https://www.instagram.com/matheuslucenaadv/",
-    bio: "Advogado especializado em Direito Imobiliário e Previdenciário, oferecendo assessoria completa em transações imobiliárias e benefícios previdenciários. Reconhecido pela atenção aos detalhes e compromisso com resultados.",
+   {
+    name: "Bruno Romero",
+    oab: "OAB/CE 44.829",
+    image: "/bruno romero.png",
+    instagram: "https://www.instagram.com/bruno_rcl/",
+    bio: "Advogado especializado em Direito Cível e Trabalhista, com ampla experiência em defesa de direitos e resolução de conflitos. Comprometido com soluções jurídicas eficazes e orientação transparente.",
     qualifications: [
       "Graduado em Direito",
-      "Especialização em Direito Imobiliário",
-      "Atuação em Direito Previdenciário",
+      "Especialização em Direito Civil",
+      "Atuação em Direito Trabalhista",
       "Membro da OAB/CE desde 2020",
     ],
-    areas: ["Direito Imobiliário", "Direito Previdenciário"],
+    areas: ["Direito Cível", "Direito Imobiliário", "Direito Previdenciário"],
   },
 ];
 

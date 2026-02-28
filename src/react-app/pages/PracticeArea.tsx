@@ -32,6 +32,7 @@ export default function PracticeArea() {
   }
 
   const Icon = area.icon;
+  const lawyerTitle = area.responsibleLawyers.length > 1 ? "Advogados Responsáveis" : "Advogado Responsável";
 
   return (
     <div className="min-h-screen">
@@ -68,6 +69,7 @@ export default function PracticeArea() {
         {/* Conteúdo */}
         <section className="py-16 lg:py-20">
           <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
+
             <div className="grid gap-10">
               {area.contentBlocks.map((block, i) => (
                 <div key={i}>
@@ -92,9 +94,7 @@ export default function PracticeArea() {
 
             {/* Advogado(s) responsável(eis) */}
             <div className="mt-12">
-              <h2 className="text-2xl font-bold text-primary mb-6">
-                {area.responsibleLawyers.length > 1 ? "Advogados Responsáveis" : "Advogado Responsável"}
-              </h2>
+              <h2 className="text-2xl font-bold text-primary mb-6">{lawyerTitle}</h2>
               <div className="flex flex-col gap-4">
                 {area.responsibleLawyers.map((lawyer) => (
                   <div key={lawyer.name} className="flex items-center gap-6 p-6 bg-card border border-border rounded-xl hover:shadow-md transition-shadow">
@@ -106,7 +106,7 @@ export default function PracticeArea() {
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-primary">{lawyer.name}</h3>
                       <p className="text-sm text-muted-foreground mt-1">{lawyer.oab}</p>
-                      
+                      <a
                         href={lawyer.instagram}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -120,6 +120,7 @@ export default function PracticeArea() {
                 ))}
               </div>
             </div>
+
           </div>
         </section>
 

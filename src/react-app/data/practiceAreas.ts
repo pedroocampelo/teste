@@ -12,11 +12,11 @@ export interface PracticeArea {
   icon: LucideIcon;
   introText: string;
   responsibleLawyers: {
-  name: string;
-  oab: string;
-  image: string;
-  instagram: string;
-}[];
+    name: string;
+    oab: string;
+    image: string;
+    instagram: string;
+  }[];
   contentBlocks: ContentBlock[];
   closingMethodologyText: string;
 }
@@ -30,12 +30,14 @@ export const practiceAreas: PracticeArea[] = [
     icon: Scale,
     introText:
       "O Direito Cível regula as relações entre particulares, abrangendo contratos, responsabilidade civil, direito de família e sucessões. Nossa equipe está preparada para orientá-lo em questões patrimoniais e pessoais.",
-    responsibleLawyers: {
-      name: "Bruno Romero",
-      oab: "OAB/CE 44.829",
-      image: "/bruno romero.png",
-      instagram: "https://www.instagram.com/bruno_rcl/",
-    },
+    responsibleLawyers: [
+      {
+        name: "Bruno Romero",
+        oab: "OAB/CE 44.829",
+        image: "/bruno romero.png",
+        instagram: "https://www.instagram.com/bruno_rcl/",
+      },
+    ],
     contentBlocks: [
       {
         heading: "Nossos Serviços",
@@ -75,12 +77,14 @@ export const practiceAreas: PracticeArea[] = [
     icon: Briefcase,
     introText:
       "O Direito Trabalhista protege os direitos dos trabalhadores e regula as relações de trabalho. Atuamos tanto na defesa de direitos quanto na orientação preventiva para evitar conflitos.",
-    responsibleLawyers: {
-      name: "Matheus Lucena",
-      oab: "OAB/CE 44.968",
-      image: "/matheus lucena.png",
-      instagram: "https://www.instagram.com/matheuslucenaadv/",
-    },
+    responsibleLawyers: [
+      {
+        name: "Matheus Lucena",
+        oab: "OAB/CE 44.968",
+        image: "/matheus lucena.png",
+        instagram: "https://www.instagram.com/matheuslucenaadv/",
+      },
+    ],
     contentBlocks: [
       {
         heading: "Nossos Serviços",
@@ -120,12 +124,14 @@ export const practiceAreas: PracticeArea[] = [
     icon: ShoppingCart,
     introText:
       "O Código de Defesa do Consumidor protege você em relações de consumo. Atuamos para garantir que empresas cumpram suas obrigações e você tenha seus direitos respeitados.",
-    responsibleLawyers: {
-      name: "Lorenzo Marcello",
-      oab: "OAB/CE 48.638",
-      image: "/lorenzo marcello.png",
-      instagram: "https://www.instagram.com/lorenzofmarcello/",
-    },
+    responsibleLawyers: [
+      {
+        name: "Lorenzo Marcello",
+        oab: "OAB/CE 48.638",
+        image: "/lorenzo marcello.png",
+        instagram: "https://www.instagram.com/lorenzofmarcello/",
+      },
+    ],
     contentBlocks: [
       {
         heading: "Nossos Serviços",
@@ -165,12 +171,14 @@ export const practiceAreas: PracticeArea[] = [
     icon: Building2,
     introText:
       "O Direito Empresarial abrange todas as questões jurídicas que envolvem a atividade empresarial. Oferecemos consultoria preventiva e contenciosa para proteger seu negócio.",
-    responsibleLawyers: {
-      name: "Matheus Lucena",
-      oab: "OAB/CE 44.968",
-      image: "/matheus lucena.png",
-      instagram: "https://www.instagram.com/matheuslucenaadv/",
-    },
+    responsibleLawyers: [
+      {
+        name: "Matheus Lucena",
+        oab: "OAB/CE 44.968",
+        image: "/matheus lucena.png",
+        instagram: "https://www.instagram.com/matheuslucenaadv/",
+      },
+    ],
     contentBlocks: [
       {
         heading: "Nossos Serviços",
@@ -211,15 +219,19 @@ export const practiceAreas: PracticeArea[] = [
     introText:
       "O Direito Imobiliário trata de todas as questões relacionadas a propriedades e locações. Protegemos seus interesses em transações imobiliárias e relações locatícias.",
     responsibleLawyers: [
-      { name: "Bruno Romero",
-      oab: "OAB/CE 44.829",
-      image: "/bruno romero.png",
-      instagram: "https://www.instagram.com/bruno_rcl/",},
-  { name: "Lorenzo Marcello",
-      oab: "OAB/CE 48.638",
-      image: "/lorenzo marcello.png",
-      instagram: "https://www.instagram.com/lorenzofmarcello/",},
-],
+      {
+        name: "Bruno Romero",
+        oab: "OAB/CE 44.829",
+        image: "/bruno romero.png",
+        instagram: "https://www.instagram.com/bruno_rcl/",
+      },
+      {
+        name: "Lorenzo Marcello",
+        oab: "OAB/CE 48.638",
+        image: "/lorenzo marcello.png",
+        instagram: "https://www.instagram.com/lorenzofmarcello/",
+      },
+    ],
     contentBlocks: [
       {
         heading: "Nossos Serviços",
@@ -260,15 +272,19 @@ export const practiceAreas: PracticeArea[] = [
     introText:
       "O Direito Previdenciário garante acesso aos benefícios da Previdência Social. Auxiliamos na obtenção e manutenção de benefícios junto ao INSS.",
     responsibleLawyers: [
-      { name: "Bruno Romero",
-      oab: "OAB/CE 44.829",
-      image: "/bruno romero.png",
-      instagram: "https://www.instagram.com/bruno_rcl/",},
-  { name: "Matheus Lucena",
-      oab: "OAB/CE 44.968",
-      image: "/matheus lucena.png",
-      instagram: "https://www.instagram.com/matheuslucenaadv/",},
-],
+      {
+        name: "Bruno Romero",
+        oab: "OAB/CE 44.829",
+        image: "/bruno romero.png",
+        instagram: "https://www.instagram.com/bruno_rcl/",
+      },
+      {
+        name: "Matheus Lucena",
+        oab: "OAB/CE 44.968",
+        image: "/matheus lucena.png",
+        instagram: "https://www.instagram.com/matheuslucenaadv/",
+      },
+    ],
     contentBlocks: [
       {
         heading: "Nossos Serviços",

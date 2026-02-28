@@ -106,7 +106,8 @@ export default function PracticeArea() {
         <div className="flex-1">
           <h3 className="text-xl font-bold text-primary">{lawyer.name}</h3>
           <p className="text-sm text-muted-foreground mt-1">{lawyer.oab}</p>
-          
+
+          <a
             href={lawyer.instagram}
             target="_blank"
             rel="noopener noreferrer"

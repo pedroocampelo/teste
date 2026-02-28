@@ -270,7 +270,6 @@ export const practiceAreas: PracticeArea[] = [
     closingMethodologyText:
       "Nossa metodologia previdenciária é baseada em análise técnica aprofundada do seu histórico contributivo. Trabalhamos para garantir que você receba o benefício adequado no menor tempo possível, seja por via administrativa ou judicial.",
   },
-];
   {
     slug: "direito-trabalhista",
     title: "Direito Trabalhista",
@@ -318,3 +317,4 @@ export const practiceAreas: PracticeArea[] = [
     closingMethodologyText:
       "Nossa metodologia trabalhista foca na proteção integral dos seus direitos como trabalhador. Utilizamos conhecimento atualizado da legislação e jurisprudência para construir casos sólidos e obter os melhores resultados possíveis.",
   },
+];

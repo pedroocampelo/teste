@@ -106,16 +106,18 @@ export default function PracticeArea() {
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-primary">{lawyer.name}</h3>
                       <p className="text-sm text-muted-foreground mt-1">{lawyer.oab}</p>
-                      <a
-                    href={area.responsibleLawyers.instagram}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 mt-3 text-primary hover:text-primary/80 text-sm transition-colors"
-                  >
-                    <Instagram className="w-4 h-4" />
-                    Instagram
-                  </a>
-                </div>
+                      
+                        href={lawyer.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 mt-3 text-primary hover:text-primary/80 text-sm transition-colors"
+                      >
+                        <Instagram className="w-4 h-4" />
+                        Instagram
+                      </a>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -127,4 +129,3 @@ export default function PracticeArea() {
     </div>
   );
 }
-

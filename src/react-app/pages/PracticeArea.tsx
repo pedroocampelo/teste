@@ -90,31 +90,36 @@ export default function PracticeArea() {
               <p className="text-muted-foreground leading-relaxed">{area.closingMethodologyText}</p>
             </div>
 
-            {/* Advogado responsável */}
-            <div className="mt-12">
-              <h2 className="text-2xl font-bold text-primary mb-6">Advogado Responsável</h2>
-              <div className="flex items-center gap-6 p-6 bg-card border border-border rounded-xl hover:shadow-md transition-shadow">
-                <img
-                  src={area.responsibleLawyer.image}
-                  alt={area.responsibleLawyer.name}
-                  className="w-20 h-20 rounded-full object-cover shrink-0"
-                />
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-primary">{area.responsibleLawyer.name}</h3>
-                  <p className="text-sm text-muted-foreground mt-1">{area.responsibleLawyer.oab}</p>
-                  <a
-                    href={area.responsibleLawyer.instagram}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 mt-3 text-primary hover:text-primary/80 text-sm transition-colors"
-                  >
-                    <Instagram className="w-4 h-4" />
-                    Instagram
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+            {/* Advogado(s) responsável(eis) */}
+<div className="mt-12">
+  <h2 className="text-2xl font-bold text-primary mb-6">
+    {area.responsibleLawyers.length > 1 ? "Advogados Responsáveis" : "Advogado Responsável"}
+  </h2>
+  <div className="flex flex-col gap-4">
+    {area.responsibleLawyers.map((lawyer) => (
+      <div key={lawyer.name} className="flex items-center gap-6 p-6 bg-card border border-border rounded-xl hover:shadow-md transition-shadow">
+        <img
+          src={lawyer.image}
+          alt={lawyer.name}
+          className="w-20 h-20 rounded-full object-cover shrink-0"
+        />
+        <div className="flex-1">
+          <h3 className="text-xl font-bold text-primary">{lawyer.name}</h3>
+          <p className="text-sm text-muted-foreground mt-1">{lawyer.oab}</p>
+          
+            href={lawyer.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 mt-3 text-primary hover:text-primary/80 text-sm transition-colors"
+          >
+            <Instagram className="w-4 h-4" />
+            Instagram
+          </a>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
         </section>
 
         <CTASection />

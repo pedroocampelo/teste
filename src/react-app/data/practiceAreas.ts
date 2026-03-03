@@ -52,8 +52,8 @@ export const practiceAreas: PracticeArea[] = [
       {
         heading: "Nossa Abordagem",
         paragraphs: [
-          "Analisamos cada caso de forma personalizada, identificando os melhores caminhos jurídicos.",
-          "Buscamos soluções ágeis e eficazes, priorizando a resolução extrajudicial quando possível.",
+          "Analisamos cada caso buscando identificar os melhores caminhos jurídicos.",
+          "Buscamos soluções eficazes, priorizando a resolução extrajudicial quando possível.",
           "Mantemos comunicação transparente durante todo o processo.",
         ],
       },
@@ -61,14 +61,14 @@ export const practiceAreas: PracticeArea[] = [
         heading: "Como Trabalhamos",
         paragraphs: [
           "Consulta inicial para entendimento detalhado do caso.",
-          "Análise técnica e apresentação de estratégias possíveis.",
+          "Análise técnica e apresentação de possíveis estratégias.",
           "Acompanhamento contínuo com atualizações regulares.",
           "Conclusão com orientações para prevenção de problemas futuros.",
         ],
       },
     ],
     closingMethodologyText:
-      "No Direito Cível, nossa metodologia se baseia na análise cuidadosa dos fatos, na aplicação rigorosa da legislação e na busca por soluções que equilibrem seus interesses com a viabilidade jurídica. Trabalhamos para que você tenha segurança em suas relações civis e patrimoniais.",
+      "No Direito Cível, nossa metodologia se baseia na análise dos fatos, na aplicação da legislação e na busca por soluções que equilibrem seus interesses com a viabilidade jurídica. Trabalhamos para que você tenha segurança em suas relações civis e patrimoniais.",
   },
   {
     slug: "direito-do-consumidor",
@@ -77,7 +77,7 @@ export const practiceAreas: PracticeArea[] = [
       "Passou por cobrança indevida ou comprou algo que não funciona como prometido? Você pode agir para reconquistar seus direitos.",
     icon: ShoppingCart,
     introText:
-      "O Código de Defesa do Consumidor protege você em relações de consumo. Atuamos para garantir que empresas cumpram suas obrigações e você tenha seus direitos respeitados.",
+      "O Código de Defesa do Consumidor (CDC) protege você em relações de consumo. Atuamos para garantir que empresas cumpram suas obrigações e você tenha seus direitos respeitados.",
     responsibleLawyers: [
       {
         name: "Lorenzo Marcello",
@@ -115,7 +115,7 @@ export const practiceAreas: PracticeArea[] = [
       },
     ],
     closingMethodologyText:
-      "No Direito do Consumidor, trabalhamos para equilibrar a relação entre você e as empresas. Nossa experiência com o CDC permite identificar rapidamente violações e construir estratégias eficazes para restabelecer seus direitos.",
+      "No Direito do Consumidor, trabalhamos para equilibrar a relação entre você e as empresas. Nossa experiência com o CDC permite identificar violações e construir estratégias para restabelecer seus direitos.",
   },
   {
     slug: "direito-empresarial",
@@ -146,7 +146,7 @@ export const practiceAreas: PracticeArea[] = [
       {
         heading: "Nossa Abordagem",
         paragraphs: [
-          "Analisamos o contexto completo do seu negócio antes de propor soluções.",
+          "Analisamos o contexto do seu negócio antes de propor soluções.",
           "Alinhamos estratégias jurídicas com objetivos empresariais.",
           "Atuamos de forma preventiva para evitar litígios futuros.",
         ],
@@ -207,7 +207,7 @@ export const practiceAreas: PracticeArea[] = [
       {
         heading: "Como Trabalhamos",
         paragraphs: [
-          "Análise detalhada da documentação do imóvel.",
+          "Análise da documentação do imóvel.",
           "Identificação de pendências e restrições.",
           "Orientação sobre os próximos passos e riscos envolvidos.",
           "Acompanhamento até a conclusão da transação ou resolução do conflito.",
@@ -215,7 +215,7 @@ export const practiceAreas: PracticeArea[] = [
       },
     ],
     closingMethodologyText:
-      "No Direito Imobiliário, nossa metodologia prioriza a segurança jurídica das transações. Realizamos análises minuciosas para que você tome decisões informadas e protegidas, seja comprando, vendendo ou locando um imóvel.",
+      "No Direito Imobiliário, nossa metodologia prioriza a segurança jurídica das transações. Realizamos análises para que você tome decisões protegidas, seja comprando, vendendo ou locando um imóvel.",
   },
   {
     slug: "direito-previdenciario",
@@ -243,7 +243,7 @@ export const practiceAreas: PracticeArea[] = [
       {
         heading: "Nossos Serviços",
         paragraphs: [
-          "Solicitação e revisão de aposentadorias (tempo de contribuição, idade, especial).",
+          "Solicitação e revisão de aposentadorias (tempo de contribuição, idade, especial, etc).",
           "Auxílio-doença e auxílio-acidente.",
           "Pensão por morte e BPC/LOAS.",
           "Recursos administrativos e ações judiciais contra negativas do INSS.",
@@ -268,7 +268,7 @@ export const practiceAreas: PracticeArea[] = [
       },
     ],
     closingMethodologyText:
-      "Nossa metodologia previdenciária é baseada em análise técnica aprofundada do seu histórico contributivo. Trabalhamos para garantir que você receba o benefício adequado no menor tempo possível, seja por via administrativa ou judicial.",
+      "Nossa metodologia previdenciária é baseada em análise do seu histórico contributivo. Trabalhamos para garantir que você receba o benefício adequado no menor tempo possível, seja por via administrativa ou judicial.",
   },
   {
     slug: "direito-trabalhista",
@@ -299,7 +299,7 @@ export const practiceAreas: PracticeArea[] = [
       {
         heading: "Nossa Abordagem",
         paragraphs: [
-          "Avaliamos criteriosamente todos os aspectos da relação de trabalho.",
+          "Avaliamos todos os aspectos da relação de trabalho.",
           "Orientamos sobre direitos e deveres para evitar surpresas.",
           "Atuamos de forma estratégica para maximizar seus direitos.",
         ],
@@ -307,7 +307,7 @@ export const practiceAreas: PracticeArea[] = [
       {
         heading: "Como Trabalhamos",
         paragraphs: [
-          "Análise completa da documentação trabalhista.",
+          "Análise da documentação trabalhista.",
           "Identificação de irregularidades e cálculo de valores devidos.",
           "Negociação ou ajuizamento de ação conforme o caso.",
           "Acompanhamento até o recebimento efetivo dos valores.",
@@ -315,6 +315,6 @@ export const practiceAreas: PracticeArea[] = [
       },
     ],
     closingMethodologyText:
-      "Nossa metodologia trabalhista foca na proteção integral dos seus direitos como trabalhador. Utilizamos conhecimento atualizado da legislação e jurisprudência para construir casos sólidos e obter os melhores resultados possíveis.",
+      "Nossa metodologia trabalhista foca na proteção dos seus direitos como trabalhador. Utilizamos conhecimento da legislação e jurisprudência para construir casos e obter os melhores resultados possíveis.",
   },
 ];

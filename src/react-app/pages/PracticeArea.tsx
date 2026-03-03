@@ -39,7 +39,7 @@ export default function PracticeArea() {
       <Header />
       <main>
         {/* Hero da área */}
-        <section className="py-16 lg:py-20 bg-accent/30">
+        <section className="pt-10 pb-6 bg-accent/30">
           <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
             <Button
               variant="ghost"
@@ -67,7 +67,7 @@ export default function PracticeArea() {
         </section>
 
         {/* Conteúdo */}
-        <section className="py-8 lg:py-12">
+        <section className="pt-6 pb-12">
           <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
 
             <div className="grid gap-10">

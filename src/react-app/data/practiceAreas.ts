@@ -30,7 +30,7 @@ export const practiceAreas: PracticeArea[] = [
       "Fez um contrato ruim ou está sendo cobrado errado? Sofreu prejuízo por danos? Saiba como ter respaldo legal.",
     icon: Scale,
     introText:
-      "O Direito Cível regula as relações entre particulares, abrangendo contratos, responsabilidade civil, direito de família e sucessões. Nossa equipe está preparada para orientá-lo em questões patrimoniais e pessoais.",
+      "Segurança jurídica nas relações patrimoniais e pessoais do dia a dia. Atuação voltada à orientação e solução de questões contratuais, familiares e sucessórias, incluindo planejamento sucessório e resolução de conflitos, com foco na proteção dos interesses patrimoniais e pessoais.",
     responsibleLawyers: [
       {
         name: "Bruno Romero",
@@ -77,7 +77,7 @@ export const practiceAreas: PracticeArea[] = [
       "Passou por cobrança indevida ou comprou algo que não funciona como prometido? Você pode agir para reconquistar seus direitos.",
     icon: ShoppingCart,
     introText:
-      "O Código de Defesa do Consumidor (CDC) protege você em relações de consumo. Atuamos para garantir que empresas cumpram suas obrigações e você tenha seus direitos respeitados.",
+      "Atuação jurídica nas relações entre consumidores e fornecedores. Assessoria e defesa em demandas relacionadas a produtos e serviços que não atenderam às expectativas, incluindo situações envolvendo companhias aéreas, serviços de saúde, telefonia e outros fornecedores, sempre com base na legislação consumerista.",
     responsibleLawyers: [
       {
         name: "Lorenzo Marcello",
@@ -99,7 +99,7 @@ export const practiceAreas: PracticeArea[] = [
       {
         heading: "Nossa Abordagem",
         paragraphs: [
-          "Utilizamos os mecanismos do CDC para proteger seus direitos.",
+          "Utilizamos os mecanismos do Código de Direito do Consumidor (CDC) para proteger seus direitos.",
           "Buscamos reparação de danos materiais e morais quando cabível.",
           "Priorizamos soluções rápidas através de negociação com as empresas.",
         ],
@@ -124,7 +124,7 @@ export const practiceAreas: PracticeArea[] = [
       "Tem empresa ou vai abrir negócio? Evite problemas societários, contratos mal feitos ou riscos legais que podem comprometer seu crescimento.",
     icon: Building2,
     introText:
-      "O Direito Empresarial abrange todas as questões jurídicas que envolvem a atividade empresarial. Oferecemos consultoria preventiva e contenciosa para proteger seu negócio.",
+      "Estrutura jurídica e segurança nas decisões empresariais. Atuação voltada ao planejamento empresarial, com assessoria jurídica consultiva e contenciosa, com foco em compliance, abrangendo a criação, reorganização, fusão, aquisição e terminação de empresas, além de mediação e acordos entre sócios, sempre orientada à prevenção de riscos e conflitos.",
     responsibleLawyers: [
       {
         name: "Matheus Lucena",
@@ -171,7 +171,7 @@ export const practiceAreas: PracticeArea[] = [
       "Comprou imóvel com documentação irregular ou tem conflito de locação? Conte com orientação especializada para evitar prejuízos.",
     icon: Home,
     introText:
-      "O Direito Imobiliário trata de todas as questões relacionadas a propriedades e locações. Protegemos seus interesses em transações imobiliárias e relações locatícias.",
+      "Segurança jurídica nas relações e negócios imobiliários. Atuação na formulação e administração de contratos de compra e venda e locação, bem como na condução de conflitos na seara imobiliária, incluindo usucapião, despejo e cobranças, além de questões cartorárias, administrativas e tributárias relacionadas a imóveis e relações locatícias.",
     responsibleLawyers: [
       {
         name: "Bruno Romero",
@@ -224,7 +224,7 @@ export const practiceAreas: PracticeArea[] = [
       "Precisa solicitar aposentadoria ou benefício do INSS? Se afastou por doença ou tem dúvidas sobre pensão ou LOAS? Tenha o amparo necessário para garantir seus benefícios com segurança.",
     icon: Coins,
     introText:
-      "O Direito Previdenciário garante acesso aos benefícios da Previdência Social. Auxiliamos na obtenção e manutenção de benefícios junto ao INSS.",
+      "Atuação jurídica em benefícios e proteção previdenciária. Assessoria em benefícios previdenciários relacionados a doenças graves, como câncer, fibromialgia e outras patologias que podem afastar a exigência de tempo mínimo de contribuição, bem como em aposentadorias e benefícios por incapacidade, com atuação administrativa e judicial, inclusive por meio de mandado de segurança em temas sensíveis perante o INSS.",
     responsibleLawyers: [
       {
         name: "Bruno Romero",
@@ -277,7 +277,7 @@ export const practiceAreas: PracticeArea[] = [
       "Foi demitido e não recebeu tudo? Trabalha sem registro ou com abusos de jornada? Assegure o cumprimento da lei e garanta o que é seu por direito.",
     icon: Briefcase,
     introText:
-      "O Direito Trabalhista protege os direitos dos trabalhadores e regula as relações de trabalho. Atuamos tanto na defesa de direitos quanto na orientação preventiva para evitar conflitos.",
+      "Atuação jurídica nas relações de trabalho e prevenção de conflitos. Assessoria em temas relacionados a demissões sem justa causa, assédio no ambiente de trabalho e inadimplemento de encargos e verbas trabalhistas, com atuação contenciosa na defesa de direitos.",
     responsibleLawyers: [
       {
         name: "Matheus Lucena",

@@ -113,12 +113,6 @@ export const practiceAreas: PracticeArea[] = [
           "Ação judicial para garantia dos seus direitos.",
         ],
       },
-      {
-        heading: "Nossa Metologia",
-        paragraphs: [
-          "No Direito do Consumidor, trabalhamos para equilibrar a relação entre você e as empresas. Nossa experiência com o CDC permite identificar violações e construir estratégias para restabelecer seus direitos.",
-        ],
-      },
     ],
     closingMethodologyText:
       "No Direito do Consumidor, trabalhamos para equilibrar a relação entre você e as empresas. Nossa experiência com o CDC permite identificar violações e construir estratégias para restabelecer seus direitos.",
